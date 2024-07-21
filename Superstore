@@ -1,0 +1,13 @@
+SELECT *
+FROM superstore
+;
+
+SELECT item_name,price
+FROM superstore
+ORDER BY price,item_name ASC
+;
+
+SELECT AVG ('Kitchen Supplies') price
+FROM superstore
+ORDER BY price
+;
